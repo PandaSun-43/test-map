@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#panorama {
+    width: 90vw;
+    height: 60vh;
+    margin: auto;
+}
+
