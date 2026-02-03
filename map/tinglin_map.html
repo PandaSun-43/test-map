@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d1228ce8dbb4e57440f8b2549ab15f66 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d1228ce8dbb4e57440f8b2549ab15f66" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d1228ce8dbb4e57440f8b2549ab15f66 = L.map(
+                "map_d1228ce8dbb4e57440f8b2549ab15f66",
+                {
+                    center: [31.392806, 120.944707],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 16,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_57b1beb896ae8cbaf7306ed1e97ead51 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_57b1beb896ae8cbaf7306ed1e97ead51.addTo(map_d1228ce8dbb4e57440f8b2549ab15f66);
+        
+    
+            var tile_layer_f8817559e022065dbf30d07feba632ca = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "\u00a9 OpenStreetMap contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f8817559e022065dbf30d07feba632ca.addTo(map_d1228ce8dbb4e57440f8b2549ab15f66);
+        
+    
+            var marker_0709ce9579cde74d940650abfbf921b5 = L.marker(
+                [31.3931, 120.9444],
+                {
+}
+            ).addTo(map_d1228ce8dbb4e57440f8b2549ab15f66);
+        
+    
+            var icon_b00a5538cc22c62f93e1c609424e0981 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_59ae604702bacb7ae06948e5144affdc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f518d7e0662a639da95fc088ecbd787d = $(`<div id="html_f518d7e0662a639da95fc088ecbd787d" style="width: 100.0%; height: 100.0%;">     <div style="width:200px">         <h4>顾炎武纪念馆</h4>         <p style="font-size:12px">纪念明末清初思想家顾炎武，是亭林园的核心文化建筑。</p>         <a href="../vr/guyanwu/index.html" target="_blank">         target="_blank"         style="display:inline-block;                 margin-top:6px;                 color:#1e90ff;                 font-weight:bold;">         ▶ Enter VR Tour     </a>     </div>     </div>`)[0];
+                popup_59ae604702bacb7ae06948e5144affdc.setContent(html_f518d7e0662a639da95fc088ecbd787d);
+            
+        
+
+        marker_0709ce9579cde74d940650abfbf921b5.bindPopup(popup_59ae604702bacb7ae06948e5144affdc)
+        ;
+
+        
+    
+    
+                marker_0709ce9579cde74d940650abfbf921b5.setIcon(icon_b00a5538cc22c62f93e1c609424e0981);
+            
+    
+            var marker_9e26a9363166b0724816edd3800be171 = L.marker(
+                [31.3925, 120.9452],
+                {
+}
+            ).addTo(map_d1228ce8dbb4e57440f8b2549ab15f66);
+        
+    
+            var icon_dc5273db37937b55afd0c2dd3977df54 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_86683ac30c3e975aa857602cac9bee8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_051a9412b6dda4bfe05ccc0e814d191c = $(`<div id="html_051a9412b6dda4bfe05ccc0e814d191c" style="width: 100.0%; height: 100.0%;">     <div style="width:200px">         <h4>玉峰书院</h4>         <p style="font-size:12px">园内重要的历史书院空间，体现昆山文脉。</p>         <a href="../vr/guyanwu/index.html" target="_blank">         target="_blank"         style="display:inline-block;                 margin-top:6px;                 color:#1e90ff;                 font-weight:bold;">         ▶ Enter VR Tour     </a>     </div>     </div>`)[0];
+                popup_86683ac30c3e975aa857602cac9bee8e.setContent(html_051a9412b6dda4bfe05ccc0e814d191c);
+            
+        
+
+        marker_9e26a9363166b0724816edd3800be171.bindPopup(popup_86683ac30c3e975aa857602cac9bee8e)
+        ;
+
+        
+    
+    
+                marker_9e26a9363166b0724816edd3800be171.setIcon(icon_dc5273db37937b55afd0c2dd3977df54);
+            
+    
+            var marker_8382f524b5c9ee5a4495a9d278845689 = L.marker(
+                [31.3929, 120.9439],
+                {
+}
+            ).addTo(map_d1228ce8dbb4e57440f8b2549ab15f66);
+        
+    
+            var icon_f13e8ad0270432dc864f7051417e628f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_33a2bd2cda3541f8ea1649e1ec8a4057 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_903cdc646a5bca23bfb10544dfc05a3f = $(`<div id="html_903cdc646a5bca23bfb10544dfc05a3f" style="width: 100.0%; height: 100.0%;">     <div style="width:200px">         <h4>亭林祠</h4>         <p style="font-size:12px">纪念亭林先生的重要场所，具有仪式性与纪念性。</p>         <a href="../vr/guyanwu/index.html" target="_blank">         target="_blank"         style="display:inline-block;                 margin-top:6px;                 color:#1e90ff;                 font-weight:bold;">         ▶ Enter VR Tour     </a>     </div>     </div>`)[0];
+                popup_33a2bd2cda3541f8ea1649e1ec8a4057.setContent(html_903cdc646a5bca23bfb10544dfc05a3f);
+            
+        
+
+        marker_8382f524b5c9ee5a4495a9d278845689.bindPopup(popup_33a2bd2cda3541f8ea1649e1ec8a4057)
+        ;
+
+        
+    
+    
+                marker_8382f524b5c9ee5a4495a9d278845689.setIcon(icon_f13e8ad0270432dc864f7051417e628f);
+            
+</script>
+</html>
