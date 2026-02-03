@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1af0c18fc0dc7bb567e4f03a9a130656 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1af0c18fc0dc7bb567e4f03a9a130656" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1af0c18fc0dc7bb567e4f03a9a130656 = L.map(
+                "map_1af0c18fc0dc7bb567e4f03a9a130656",
+                {
+                    center: [31.392806, 120.944707],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 16,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_937e88e4b7f240f15d409ccf59d0ec89 = L.tileLayer(
+                "https://www.maptiler.com/maps/#style=streets-v4\u0026lang=auto\u0026mode=2d\u0026position=15.83/31.392806/120.944707",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "\u00a9 MapTiler \u00a9 OpenStreetMap contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_937e88e4b7f240f15d409ccf59d0ec89.addTo(map_1af0c18fc0dc7bb567e4f03a9a130656);
+        
+    
+            var marker_82796b2beced78ee5006415d716a7ab9 = L.marker(
+                [31.3931, 120.9444],
+                {
+}
+            ).addTo(map_1af0c18fc0dc7bb567e4f03a9a130656);
+        
+    
+            var icon_738a7e296ce5dd29004cd5058ec24995 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_926f8a5194d6da55a6b49647a1eae5d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fedae9e43c1eaa441effe03f0740dc9 = $(`<div id="html_0fedae9e43c1eaa441effe03f0740dc9" style="width: 100.0%; height: 100.0%;">     <div style="width:200px">         <h4>顾炎武纪念馆</h4>         <p style="font-size:12px">纪念明末清初思想家顾炎武，是亭林园的核心文化建筑。</p>     </div>     </div>`)[0];
+                popup_926f8a5194d6da55a6b49647a1eae5d6.setContent(html_0fedae9e43c1eaa441effe03f0740dc9);
+            
+        
+
+        marker_82796b2beced78ee5006415d716a7ab9.bindPopup(popup_926f8a5194d6da55a6b49647a1eae5d6)
+        ;
+
+        
+    
+    
+                marker_82796b2beced78ee5006415d716a7ab9.setIcon(icon_738a7e296ce5dd29004cd5058ec24995);
+            
+    
+            var marker_d62d37a3c90722eaebff2aafc1dddb45 = L.marker(
+                [31.3925, 120.9452],
+                {
+}
+            ).addTo(map_1af0c18fc0dc7bb567e4f03a9a130656);
+        
+    
+            var icon_8c75fc4d9ba28a9ed6ed8b92cd53f736 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5a7551ba8430557ad960fc8e97971843 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc9ddfecb6bc70efc9c2aa5d38182de1 = $(`<div id="html_fc9ddfecb6bc70efc9c2aa5d38182de1" style="width: 100.0%; height: 100.0%;">     <div style="width:200px">         <h4>玉峰书院</h4>         <p style="font-size:12px">园内重要的历史书院空间，体现昆山文脉。</p>     </div>     </div>`)[0];
+                popup_5a7551ba8430557ad960fc8e97971843.setContent(html_fc9ddfecb6bc70efc9c2aa5d38182de1);
+            
+        
+
+        marker_d62d37a3c90722eaebff2aafc1dddb45.bindPopup(popup_5a7551ba8430557ad960fc8e97971843)
+        ;
+
+        
+    
+    
+                marker_d62d37a3c90722eaebff2aafc1dddb45.setIcon(icon_8c75fc4d9ba28a9ed6ed8b92cd53f736);
+            
+    
+            var marker_cb1c1807dd9388d5bf7fbc33502e044d = L.marker(
+                [31.3929, 120.9439],
+                {
+}
+            ).addTo(map_1af0c18fc0dc7bb567e4f03a9a130656);
+        
+    
+            var icon_ce79ae7ac6224158dedd545c01d8a074 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2c0f8f3e1628a2fffe4ac4ee34d29d77 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b19087eb184f0956b6ecda7a0d2e6a70 = $(`<div id="html_b19087eb184f0956b6ecda7a0d2e6a70" style="width: 100.0%; height: 100.0%;">     <div style="width:200px">         <h4>亭林祠</h4>         <p style="font-size:12px">纪念亭林先生的重要场所，具有仪式性与纪念性。</p>     </div>     </div>`)[0];
+                popup_2c0f8f3e1628a2fffe4ac4ee34d29d77.setContent(html_b19087eb184f0956b6ecda7a0d2e6a70);
+            
+        
+
+        marker_cb1c1807dd9388d5bf7fbc33502e044d.bindPopup(popup_2c0f8f3e1628a2fffe4ac4ee34d29d77)
+        ;
+
+        
+    
+    
+                marker_cb1c1807dd9388d5bf7fbc33502e044d.setIcon(icon_ce79ae7ac6224158dedd545c01d8a074);
+            
+</script>
+</html>
